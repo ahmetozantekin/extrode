@@ -4,7 +4,8 @@
   "description": "Key extractor for object arrays",
   "main": "extrude.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "keywords": [
     "extract",
@@ -19,6 +20,8 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.12",
+    "istanbul": "^0.4.4",
     "mocha": "^3.0.0"
   }
 }
