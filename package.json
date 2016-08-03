@@ -1,0 +1,24 @@
+{
+  "name": "extrude",
+  "version": "0.0.1",
+  "description": "Key extractor for object arrays",
+  "main": "extrude.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "extract",
+    "object",
+    "keys",
+    "remove",
+    "key",
+    "from",
+    "object"
+  ],
+  "author": "Okan Vurdu",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0"
+  }
+}
