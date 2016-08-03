@@ -1,9 +1,9 @@
 'use strict';
 
 var expect = require('chai').expect;
-var extrude = require('../extrude');
+var extrode = require('../extrode');
 
-describe('#extrude', function(){
+describe('#extrode', function(){
 
     it('should extract keys from object array', function(){
         var array = [
@@ -12,7 +12,7 @@ describe('#extrude', function(){
 
         var keys = ['x'];
 
-        var result = extrude(array, keys);
+        var result = extrode(array, keys);
 
         // TODO: Add expectation to here
     });

@@ -1,5 +1,5 @@
 {
-  "name": "extrude",
+  "name": "extrode",
   "version": "0.0.1",
   "description": "Key extractor for object arrays",
   "main": "extrude.js",
