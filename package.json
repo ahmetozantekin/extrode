@@ -10,11 +10,7 @@
   "keywords": [
     "extract",
     "object",
-    "keys",
-    "remove",
-    "key",
-    "from",
-    "object"
+    "keys"
   ],
   "author": "Okan Vurdu",
   "license": "MIT",
