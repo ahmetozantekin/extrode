@@ -1,6 +1,6 @@
 extrode
 =======
-[![Build Status](https://travis-ci.org/okan/extrode.svg?branch=master)](https://travis-ci.org/okan/extrode) [![Coverage Status](https://coveralls.io/repos/github/okan/extrode/badge.svg?branch=master)](https://coveralls.io/github/okan/extrode?branch=master)
+[![Build Status](https://travis-ci.org/okan/extrode.svg?branch=master)](https://travis-ci.org/okan/extrode) [![Coverage Status](https://coveralls.io/repos/github/okan/extrode/badge.svg?branch=master)](https://coveralls.io/github/okan/extrode?branch=master) [![npm version](https://badge.fury.io/js/extrode.svg)](https://badge.fury.io/js/extrode)
 
 A small library that extracts specified keys from a single object or objects in an array.
 
