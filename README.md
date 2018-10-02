@@ -16,7 +16,7 @@ A small library that extracts specified keys from a single object or objects in 
 var extrode = require('extrode');
 var dirtyArray = [{ x: 1, y: 2 }, { x: 3, y: 4 }, { x: 5, y: 6}];
 
-var result = extrode(dirtyArray, ['x']);
+var result = dirtyArray.extrode(['x']);
 ```
   
   Output should be `[{ x: 1 }, { x: 3 }, { x: 5 }]`
@@ -27,7 +27,7 @@ var result = extrode(dirtyArray, ['x']);
 var extrode = require('extrode');
 var dirtyObject = { x: 1, y: 2 };
 
-var result = extrode(dirtyObject, ['x']);
+var result = dirtyObject.extrode(['x']);
 ```
   
   Output should be `{ x: 1 }`
