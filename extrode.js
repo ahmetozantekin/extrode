@@ -2,7 +2,7 @@ module.exports =
 	Object.prototype.extrode = 
 	Array.prototype.extrode = function(keys) {
 
-		if(this.constructor === Array) {
+		if(this instanceof Array) {
 			return this.map(item => extractKeys(item, keys));
 		}
 
